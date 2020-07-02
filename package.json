@@ -2,6 +2,7 @@
   "name": "bulbs",
   "version": "1.0.0",
   "description": "Management REST-API for lightbulbs",
+  "type": "module",
   "main": "index.js",
   "author": "Bram Kamies",
   "license": "MIT",
