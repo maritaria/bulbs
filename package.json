@@ -1,23 +1,13 @@
 {
-  "name": "bulbs",
+  "name": "lednet",
   "version": "1.0.0",
-  "description": "Management REST-API for lightbulbs",
-  "type": "module",
+  "description": "Home automation app",
   "main": "index.js",
-  "author": "Bram Kamies",
+  "repository": "git@github.com:maritaria/bulbs.git",
+  "author": "Maritaria <<>>",
   "license": "MIT",
   "private": true,
-  "scripts": {
-    "serve": "nodemon index.js"
-  },
-  "dependencies": {
-    "koa": "^2.13.0",
-    "koa-bodyparser": "^4.3.0",
-    "koa-json": "^2.0.2",
-    "koa-router": "^9.1.0",
-    "magic-home": "^2.6.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+  "workspaces": [
+    "api", "app"
+  ]
 }
